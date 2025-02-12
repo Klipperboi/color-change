@@ -15,4 +15,4 @@ If you use Marlin, just put M600 there; if you use klipper, you will have to mak
 
 You need to import your model into OrcaSlicer. For the sake of this tutorial, I'll be using [this model](https://www.printables.com/model/914446-rammstein-keychain). Add at least 2 colors/filaments from the *Filament* section, so you can color change properly, in this case black and white.
 
-![alt text](https://github.com/Klipperboi/color-change/blob/main/assets/m600.png)
+![alt text](https://github.com/Klipperboi/color-change/blob/main/assets/filament.png)
