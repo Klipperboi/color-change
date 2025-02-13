@@ -69,3 +69,4 @@ Open the model in Orca, then cut the embossed part (_Ribbon Menu > Cut_).
 
 Proceed in the same way as you do for using an .svg file (center, assemble, change colors, slice and verify).
 ![alt text](https://github.com/Klipperboi/color-change/blob/main/assets/cut3.png)
+![alt text](https://github.com/Klipperboi/color-change/blob/main/assets/cut4.png)
