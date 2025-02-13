@@ -28,14 +28,14 @@ You need to import your model into OrcaSlicer. For the sake of this tutorial, I'
 
 If you want to make something with a color change, avoid extruding the text on top to change the color.
 
-![alt text](https://github.com/Klipperboi/color-change/blob/main/assets/f1.png)
+![alt text](https://github.com/Klipperboi/color-change/blob/main/assets/fusion1.png)
 
 Instead, mirror the sketch, and cut in the body the amount you want the color change to be done. I recommend working with mutliples of 0.2mm (or whatever layer height you are using), and do at least 3-4 layers for the accent color, especially if you want to switch from a "weak" to a "strong" color (ie. from white to black).
 
-![alt text](https://github.com/Klipperboi/color-change/blob/main/assets/f2.png)
+![alt text](https://github.com/Klipperboi/color-change/blob/main/assets/fusion2.png)
 
 Now extrude the sketch again, the same amount.
 
-![alt text](https://github.com/Klipperboi/color-change/blob/main/assets/f3.png)
+![alt text](https://github.com/Klipperboi/color-change/blob/main/assets/fusion3.png)
 
 If you want to send the file straight to Orca, as a .3mf file, make sure to make each body a different color, from the _Appearance_ menu.
