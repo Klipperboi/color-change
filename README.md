@@ -18,12 +18,6 @@ There are 3 main use cases that we'll cover in this tutorial:
 - using SGVs
 - models that were made for layer change color change (on the top)
 
-# PREPARING
-
-You need to import your model into OrcaSlicer. For the sake of this tutorial, I'll be using [this model](https://www.printables.com/model/914446-rammstein-keychain). Add at least 2 colors/filaments from the *Filament* section, so you can color change properly, in this case black and white.
-
-![alt text](https://github.com/Klipperboi/color-change/blob/main/assets/filament.png)
-
 # 1. Custom made models
 
 If you want to make something with a color change, avoid extruding the text on top to change the color.
@@ -63,3 +57,15 @@ Switch to _Objects_ tab (_Process > Objects_), and make sure that each object is
 Slice the model and verify that the colors display correctly.
 
 ![alt text](https://github.com/Klipperboi/color-change/blob/main/assets/orca7.png)
+
+
+# 3. USING MODELS MADE FOR LAYER CHANGE COLOR SWAP
+
+For the sake of this tutorial, I'll be using [this model](https://www.printables.com/model/914446-rammstein-keychain).
+Open the model in Orca, then cut the embossed part (_Ribbon Menu > Cut_).
+
+![alt text](https://github.com/Klipperboi/color-change/blob/main/assets/cut1.png)
+![alt text](https://github.com/Klipperboi/color-change/blob/main/assets/cut2.png)
+
+Proceed in the same way as you do for using an .svg file (center, assemble, change colors, slice and verify).
+![alt text](https://github.com/Klipperboi/color-change/blob/main/assets/cut3.png)
