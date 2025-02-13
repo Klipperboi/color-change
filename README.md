@@ -24,7 +24,7 @@ You need to import your model into OrcaSlicer. For the sake of this tutorial, I'
 
 ![alt text](https://github.com/Klipperboi/color-change/blob/main/assets/filament.png)
 
-# Custom made models
+# 1. Custom made models
 
 If you want to make something with a color change, avoid extruding the text on top to change the color.
 
@@ -39,3 +39,27 @@ Now extrude the sketch again, the same amount.
 ![alt text](https://github.com/Klipperboi/color-change/blob/main/assets/fusion3.png)
 
 If you want to send the file straight to Orca, as a .3mf file, make sure to make each body a different color, from the _Appearance_ menu.
+
+# 2. USING .SVG FILES
+
+Open OrcaSlicer, and add a cylinder (_Right Click > Add Primitive > Cylinder_), then scale it accordingly.
+
+![alt text](https://github.com/Klipperboi/color-change/blob/main/assets/orca1.png)
+
+Import your .svg file (_Right Click > Add Primitive > SVG_. Same way as for the custom made models, make the body at least 3-4 layers thick, in this case 0.6mm).
+
+![alt text](https://github.com/Klipperboi/color-change/blob/main/assets/orca2.png)
+![alt text](https://github.com/Klipperboi/color-change/blob/main/assets/orca3.png)
+
+Center the bodies (_select the object > Right Click > Center_), then assemble the bodies (_select all > Right Click > Assemble_).
+
+![alt text](https://github.com/Klipperboi/color-change/blob/main/assets/orca4.png)
+![alt text](https://github.com/Klipperboi/color-change/blob/main/assets/orca5.png)
+
+Switch to _Objects_ tab (_Process > Objects_), and make sure that each object is a different color (_Fila > dropdown menu > select color_), and that tbe primitive is before the .svg.
+
+![alt text](https://github.com/Klipperboi/color-change/blob/main/assets/orca6.png)
+
+Slice the model and verify that the colors display correctly.
+
+![alt text](https://github.com/Klipperboi/color-change/blob/main/assets/orca7.png)
